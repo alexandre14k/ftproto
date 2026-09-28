@@ -113,17 +113,6 @@ lifecycle) accumulate in a vector and print only when
 `s` is entered. Nothing streams to the console during
 operation.
 
-## Tests
-
-```sh
-cargo test
-```
-
-Unit tests live in `tests/main.rs` and cover config
-defaults, virtual path clamping, command parsing, path
-resolution, list flag stripping, passive ip encoding,
-date formatting, and setup flow validation.
-
 ## Layout
 
 ```text
