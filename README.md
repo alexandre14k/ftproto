@@ -1,5 +1,7 @@
 # ftproto
 
+![Visitors](https://api.visitorbadge.io/api/VisitorHit?user=alexandre14k&repo=https://github.com/alexandre14k/ftproto&label=Views&labelColor=%23555555&countColor=%23007EC6)
+
 Console FTP server written in Rust using only std. <br>
 No async runtime, no dependencies.<br>
 Thread-per-connection with std::thread and mpsc events. <br>
