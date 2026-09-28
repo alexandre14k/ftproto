@@ -1,0 +1,17 @@
+[package]
+name = "ftproto"
+version = "1.0.0"
+edition = "2021"
+authors = ["alexandre raduly"]
+
+[dependencies]
+
+[build-dependencies]
+
+[profile.release]
+opt-level = "s"
+lto = true
+panic = "abort"
+strip = "symbols"
+codegen-units = 1
+rpath = false
